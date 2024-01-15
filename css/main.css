@@ -1,0 +1,82 @@
+/* using exteral css */
+/* starting with the navigation bar */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+  margin: 0 0 0 150px;
+  list-style: none;
+}
+header {
+  display: flex;
+  padding: 30px 10%;
+  justify-content: space-between;
+  align-items: right;
+  background: white;
+}
+img {
+  height: auto;
+  width: auto;
+  max-width: 250px;
+  max-height: 72px;
+}
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  float: right;
+  padding: 8px;
+  display: block;
+  margin-left: 0;
+}
+
+.link {
+  list-style: none;
+}
+.link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar:hover {
+  transform: scale(1.25);
+  color: orange;
+  transition-duration: 0.6s;
+  text-decoration: none;
+}
+
+/* css for navigation bar complete */
+/*  */
+/*for banner in homepage */
+div {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  color: rgb(228, 154, 18);
+  text-shadow: 0 0 15px black;
+}
+
+#banner {
+  background: url(pizza_large.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* footer */
+footer {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(228, 154, 18);
+  color: black;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pizza Cost Calculator</title>
+	<link rel="stylesheet" href="order.css">
+</head>
+<body>
+	<header>
+		<a href="index.html">
+		  <img src="./images/pizza_icon.png" alt="missing" />
+		</a>
+		<nav>
+		  <ul class="link">
+			<!-- we can use shift+alt+downarrow to duplicate lines -->
+			<li><a href="/htmls/menu.html" class="navbar">Menu</a></li>
+			<li><a href="/htmls/team.html" class="navbar">Team</a></li>
+			<li><a href="/htmls/partners.html" class="navbar">Partners</a></li>
+			<li>
+			  <a href="/htmls/testimonial.html" class="navbar">Testimonials</a>
+			</li>
+			<li><a href="/htmls/about.html" class="navbar">About</a></li>
+			<li><a href="/htmls/contactus.html" class="navbar">Contact Us</a></li>
+			<li><a href="order.html" class="navbar">Cost Calculator</a></li>
+		  </ul>
+		</nav>
+	  </header>
+	  <h1>Pizza Cost Calculator</h1>
+	  <br>
+    <label for="pizzaType">Select Pizza:</label>
+    <select id="pizzaType">
+        <option value="mar">Margherita</option>
+        <option value="mgw">Mexican Green Wave</option>
+        <option value="veg">Veg Extravaganza</option>
+        <option value="nveg">Non Veg Supreme</option>
+        <option value="cd">Chicken Dominator</option>
+    </select>
+
+    <label for="pizzaSize">Select Pizza Size:</label>
+    <select id="pizzaSize">
+        <option value="small">Small - ₹109</option>
+        <option value="medium">Medium - ₹259</option>
+        <option value="large">Large - ₹479</option>
+        <!-- Add more size options as needed -->
+    </select>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="1" value="1">
+
+    <button onclick="addToCart()">Add to Cart</button>
+
+    <div id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cartList"></ul>
+        <div id="totalCost"></div>
+    </div>
+	<script src="orderscript.js"></script>
+	
+</body>
+</html>
+
+
+

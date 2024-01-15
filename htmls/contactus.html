@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- navbar -->
+  </head>
+  <body>
+    <header>
+      <a href="/index.html">
+        <img src="/images/pizza_icon.png" alt="missing" />
+      </a>
+      <nav>
+        <ul class="link">
+          <!-- we can use shift+alt+downarrow to duplicate lines -->
+          <li><a href="menu.html" class="navbar">Menu</a></li>
+          <li><a href="team.html" class="navbar">Team</a></li>
+          <li><a href="partners.html" class="navbar">Partners</a></li>
+          <li>
+            <a href="testimonial.html" class="navbar">Testimonials</a>
+          </li>
+          <li><a href="about.html" class="navbar">About</a></li>
+          <li><a href="contactus.html" class="navbar">Contact Us</a></li>
+          <li><a href="/order.html" class="navbar">Cost Calculator</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+  <body class="contactmain">
+    <section>
+      <a href="/htmls/contactus.html" class="ContactUs">CONTACT US</a>
+      <!-- contact details -->
+      <section id="sec1">
+        <section id="sec1info">
+          <h2>Phone:</h2>
+          <p>+91 932968490 or +91 908712387</p>
+          <h2>Email:</h2>
+          <p>ventipizzeria@gmail.com</p>
+          <h2>Address:</h2>
+          <p>
+            Plot No. 897, 6th Block, 80 Feet Peropheral Road, Near Indoor
+            Stadium, Koramangala, Bengaluru, Karnataka 560095
+          </p>
+        </section>
+      </section>
+      <br />
+      <!-- contact form -->
+      <section id="sec2">
+        <div class="contact">
+          <label for="name1">First Name</label>
+          <input type="text" id="name1" placeholder="First Name" />
+          <label for="name2">Last Name</label>
+          <input type="text" id="name2" placeholder="Last Name" />
+          <label for="email">Enter your email:</label>
+          <input type="text" id="email" placeholder="Email Address" />
+          <label for="Topic">Topic</label>
+          <select id="topic" name="topic">
+            <option value="covid">Covid-19</option>
+            <option value="timings">Timings</option>
+            <option value="delivery">Delivery</option>
+            <option value="refunds">Payment & Refunds</option>
+          </select>
+          <label for="desc">Description</label>
+          <textarea
+            name="desc"
+            id="desc"
+            placeholder="Type here"
+            style="height: 300px"
+          >
+          </textarea>
+          <a href="/htmls/contactus.html"
+            ><input type="submit" value="Submit" />
+          </a>
+        </div>
+      </section>
+    </section>
+    <!-- footer -->
+    <footer>
+      <p>&copy;VentiPizzeria2023. All rights reserved.</p>
+      <p>Get out there and cheese the day</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  ul {
+	padding: 0;
+	margin: 0 0 0 150px;
+	list-style: none;
+  }
+  header {
+	display: flex;
+	padding: 30px 10%;
+	justify-content: space-between;
+	align-items: right;
+	background: white;
+  }
+  img {
+	height: auto;
+	width: auto;
+	max-width: 250px;
+	max-height: 72px;
+  }
+  .navbar {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.3rem;
+	font-weight: bolder;
+	text-decoration: none;
+	color: black;
+	float: right;
+	padding: 8px;
+	display: block;
+	margin-left: 0;
+  }
+  
+  .link {
+	list-style: none;
+  }
+  .link li {
+	display: inline-block;
+	padding: 0px 20px;
+  }
+  
+  .navbar:hover {
+	transform: scale(1.25);
+	color: orange;
+	transition-duration: 0.6s;
+	text-decoration: none;
+  }
+  /* costcalculator.css */
+  
+  body {
+	background-color: rgb(228, 154, 18);
+	font-family: "Montserrat", sans-serif;
+	
+  }
+  
+  h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 3rem;
+	color: white;
+	text-shadow: 0 0 15px black;
+  }
+  
+  form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+  }
+  
+  label {
+	font-size: 1.5rem;
+	color: white;
+	margin-bottom: 10px;
+  }
+  
+  select,
+  input[type="number"] {
+	font-size: 1.2rem;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+  }
+  
+  button {
+	font-size: 1.2rem;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: white;
+	color: rgb(228, 154, 18);
+	cursor: pointer;
+	transition-duration: 0.3s;
+  }
+  
+  button:hover {
+	background-color: rgb(228, 154, 18);
+	color: white;
+  }
+  
+  #cart {
+	margin-top: 50px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  #cart h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+  }
+  
+  #cartList {
+	list-style: none;
+	margin-bottom: 20px;
+  }
+  
+  #cartList li {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+  }
+  
+  #totalCost {
+	font-size: 1.5rem;
+	font-weight: bold;
+  }
+  
+ 
+  
